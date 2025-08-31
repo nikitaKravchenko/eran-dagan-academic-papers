@@ -1,0 +1,54 @@
+arxiv_id,paper_title,author_name,university,confidence,reasoning,published_date,categories,all_authors,similarity_score
+2001.09523v1,"Progressively-Growing AmbientGANs For Learning Stochastic Object Models
+  From Imaging Measurements",Test,Unknown,0.0,,2020-01-26T21:33:14Z,"eess.IV, cs.LG, stat.ML",Weimin Zhou; Sayantan Bhadra; Frank J. Brooks; Hua Li; Mark A. Anastasio,0.53730035
+2001.09531v1,Using Simulated Data to Generate Images of Climate Change,Test,Unknown,0.0,,2020-01-26T22:19:13Z,"cs.CV, eess.IV",Gautier Cosne; Adrien Juraver; Mélisande Teng; Victor Schmidt; Vahe Vardanyan; Alexandra Luccioni; Yoshua Bengio,0.51356435
+2001.09526v1,"Markov-Chain Monte Carlo Approximation of the Ideal Observer using
+  Generative Adversarial Networks",Test,Unknown,0.0,,2020-01-26T21:51:08Z,"eess.SP, cs.CV, cs.LG, stat.ML",Weimin Zhou; Mark A. Anastasio,0.49973533
+2001.09528v3,"Imperfect ImaGANation: Implications of GANs Exacerbating Biases on
+  Facial Data Augmentation and Snapchat Selfie Lenses",Test,Unknown,0.0,,2020-01-26T21:57:26Z,"cs.LG, cs.CV, eess.IV, stat.ML",Niharika Jain; Alberto Olmo; Sailik Sengupta; Lydia Manikonda; Subbarao Kambhampati,0.49929795
+2001.09545v1,"aiTPR: Attribute Interaction-Tensor Product Representation for Image
+  Caption",Test,Unknown,0.0,,2020-01-27T00:19:41Z,"cs.NE, cs.CV, cs.LG, cs.MM",Chiranjib Sur,0.46910805
+2001.10816v1,Multi-task Learning for Speaker Verification and Voice Trigger Detection,Test,Unknown,0.0,,2020-01-26T21:19:27Z,"eess.AS, cs.CL, cs.LG, cs.SD, stat.ML",Siddharth Sigtia; Erik Marchi; Sachin Kajarekar; Devang Naik; John Bridle,0.46694282
+2001.09464v1,"Explainable Artificial Intelligence and Machine Learning: A reality
+  rooted perspective",Test,Unknown,0.0,,2020-01-26T15:09:45Z,"cs.AI, cs.CV, cs.LG, stat.ML",Frank Emmert-Streib; Olli Yli-Harja; Matthias Dehmer,0.46086076
+2001.09540v3,"Weakly Supervised Few-shot Object Segmentation using Co-Attention with
+  Visual and Semantic Embeddings",Test,Unknown,0.0,,2020-01-26T23:56:26Z,cs.CV,Mennatullah Siam; Naren Doraiswamy; Boris N. Oreshkin; Hengshuai Yao; Martin Jagersand,0.45765948
+2001.09519v2,Multi-task Learning for Voice Trigger Detection,Test,Unknown,0.0,,2020-01-26T21:13:07Z,"eess.AS, cs.CL, cs.LG, cs.SD, stat.ML",Siddharth Sigtia; Pascal Clark; Rob Haynes; Hywel Richards; John Bridle,0.45051396
+2001.09485v2,Multimodal Data Fusion based on the Global Workspace Theory,Test,Unknown,0.0,,2020-01-26T16:52:43Z,"cs.LG, stat.ML",Cong Bao; Zafeirios Fountas; Temitayo Olugbade; Nadia Bianchi-Berthouze,0.4446344
+2001.09532v3,"Learning the Hypotheses Space from data: Learning Space and U-curve
+  Property",Test,Unknown,0.0,,2020-01-26T22:29:33Z,"stat.ML, cs.LG",Diego Marcondes; Adilson Simonis; Junior Barrera,0.44072315
+2001.09535v3,"Visualisation of Medical Image Fusion and Translation for Accurate
+  Diagnosis of High Grade Gliomas",Test,Unknown,0.0,,2020-01-26T22:49:14Z,cs.CV,Nishant Kumar; Nico Hoffmann; Matthias Kirsch; Stefan Gumhold,0.44061852
+2001.09518v1,"Unsupervised Disentanglement of Pose, Appearance and Background from
+  Images and Videos",Test,Unknown,0.0,,2020-01-26T20:59:47Z,cs.CV,Aysegul Dundar; Kevin J. Shih; Animesh Garg; Robert Pottorf; Andrew Tao; Bryan Catanzaro,0.4374984
+2001.09486v1,"Ensemble Noise Simulation to Handle Uncertainty about Gradient-based
+  Adversarial Attacks",Test,Unknown,0.0,,2020-01-26T17:12:47Z,"cs.LG, cs.CR, stat.ML",Rehana Mahfuz; Rajeev Sahay; Aly El Gamal,0.43570027
+2001.09442v3,Consciousness and Automated Reasoning,Test,Unknown,0.0,,2020-01-26T11:43:48Z,cs.AI,Ulrike Barthelmeß; Ulrich Furbach; Claudia Schon,0.43316233
+2001.09551v1,Machine Learning for a Music Glove Instrument,Test,Unknown,0.0,,2020-01-27T01:08:11Z,"cs.HC, cs.LG",Joseph Bakarji,0.43019766
+2001.09522v1,"TaxoExpan: Self-supervised Taxonomy Expansion with Position-Enhanced
+  Graph Neural Network",Test,Unknown,0.0,,2020-01-26T21:30:21Z,"cs.CL, cs.AI, cs.IR",Jiaming Shen; Zhihong Shen; Chenyan Xiong; Chi Wang; Kuansan Wang; Jiawei Han,0.4287542
+2001.11591v2,"Scalable and Customizable Benchmark Problems for Many-Objective
+  Optimization",Test,Unknown,0.0,,2020-01-26T12:39:51Z,"cs.NE, cs.AI",Ivan Reinaldo Meneghini; Marcos Antonio Alves; António Gaspar-Cunha; Frederico Gadelha Guimarães,0.42637673
+2001.09466v3,"From Stock Prediction to Financial Relevance: Repurposing Attention
+  Weights to Assess News Relevance Without Manual Annotations",Test,Unknown,0.0,,2020-01-26T15:16:37Z,"cs.CL, I.2.7",Luciano Del Corro; Johannes Hoffart,0.42472467
+2001.09521v1,"Abdominal multi-organ segmentation with cascaded convolutional and
+  adversarial deep networks",Test,Unknown,0.0,,2020-01-26T21:28:04Z,"eess.IV, cs.CV, cs.LG",Pierre-Henri Conze; Ali Emre Kavur; Emilie Cornec-Le Gall; Naciye Sinem Gezer; Yannick Le Meur; M. Alper Selver; François Rousseau,0.42069238
+2001.09498v2,Temporal Information Processing on Noisy Quantum Computers,Test,Unknown,0.0,,2020-01-26T19:00:03Z,"quant-ph, cs.SY, eess.SY, stat.ML",Jiayin Chen; Hendra I. Nurdin; Naoki Yamamoto,0.41675133
+2001.09425v3,SDOD:Real-time Segmenting and Detecting 3D Object by Depth,Test,Unknown,0.0,,2020-01-26T09:06:18Z,cs.CV,Shengjie Li; Caiyi Xu; Jianping Xing; Yafei Ning; Yonghong Chen,0.41058195
+2001.09461v3,"The SPECIAL-K Personal Data Processing Transparency and Compliance
+  Platform",Test,Unknown,0.0,,2020-01-26T14:30:09Z,"cs.CR, cs.AI",Sabrina Kirrane; Javier D. Fernández; Piero Bonatti; Uros Milosevic; Axel Polleres; Rigo Wenning,0.40812176
+2001.09501v1,"Brain Metastasis Segmentation Network Trained with Robustness to
+  Annotations with Multiple False Negatives",Test,Unknown,0.0,,2020-01-26T19:23:07Z,"cs.CV, eess.IV",Darvin Yi; Endre Grøvik; Michael Iv; Elizabeth Tong; Greg Zaharchuk; Daniel Rubin,0.40551618
+2001.09502v2,"An interpretable semi-supervised classifier using two different
+  strategies for amended self-labeling",Test,Unknown,0.0,,2020-01-26T19:37:41Z,"cs.LG, stat.ML",Isel Grau; Dipankar Sengupta; Maria M. Garcia Lorenzo; Ann Nowe,0.39952692
+2002.04066v1,"Point-of-Care Diabetic Retinopathy Diagnosis: A Standalone Mobile
+  Application Approach",Test,Unknown,0.0,,2020-01-26T11:03:16Z,"eess.IV, cs.CV",Misgina Tsighe Hagos,0.39701033
+2001.09556v1,Crowd Scene Analysis by Output Encoding,Test,Unknown,0.0,,2020-01-27T01:34:08Z,cs.CV,Yao Xue; Siming Liu; Yonghui Li; Xueming Qian,0.3953738
+2001.09508v2,"Bilevel Optimization for Differentially Private Optimization in Energy
+  Systems",Test,Unknown,0.0,,2020-01-26T20:15:28Z,"math.OC, cs.AI, cs.CR",Terrence W. K. Mak; Ferdinando Fioretto; Pascal Van Hentenryck,0.3865269
+2002.01563v1,"Discovery of Self-Assembling $π$-Conjugated Peptides by Active
+  Learning-Directed Coarse-Grained Molecular Simulation",Test,Unknown,0.0,,2020-01-27T00:01:21Z,"q-bio.BM, cond-mat.soft, cs.LG",Kirill Shmilovich; Rachael A. Mansbach; Hythem Sidky; Olivia E. Dunne; Sayak Subhra Panda; John D. Tovar; Andrew L. Ferguson,0.3839968
+2001.09547v2,"A clustering approach to time series forecasting using neural networks:
+  A comparative study on distance-based vs. feature-based clustering methods",Test,Unknown,0.0,,2020-01-27T00:31:37Z,"cs.LG, stat.ML",Manie Tadayon; Yumi Iwashita,0.37922004
+2001.09424v1,"EEG fingerprinting: subject specific signature based on the aperiodic
+  component of power spectrum",Test,Unknown,0.0,,2020-01-26T09:04:26Z,"eess.SP, cs.CV, q-bio.NC",Matteo Demuru; Matteo Fraschini,0.37784243
