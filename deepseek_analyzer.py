@@ -22,11 +22,11 @@ class DeepSeekAnalyzer:
                 messages=[{'role': 'user', 'content': 'Hello! Just testing connection.'}],
                 options={'num_predict': 10}
             )
-            logging.info("✅ DeepSeek R1 is connected and ready!")
+            logging.info("DeepSeek R1 is connected and ready!")
             logging.info("DeepSeek connection test successful")
             return True
         except Exception as e:
-            logging.warning(f"❌ DeepSeek connection failed: {e}")
+            logging.warning(f"DeepSeek connection failed: {e}")
             logging.warning("   Please make sure DeepSeek R1 is installed: ollama pull deepseek-r1")
             logging.error(f"DeepSeek connection test failed: {e}")
             return False

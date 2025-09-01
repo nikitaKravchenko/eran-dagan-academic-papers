@@ -41,9 +41,9 @@ class ArxivScraper:
         self.vector_index = VectorIndex(config.vector_model_name)
         self.deepseek_analyzer = DeepSeekAnalyzer(config.deepseek_model)
 
-        self.base_url = "http://export.arxiv.org/api/query"
-        self.batch_size = 2000  # maximum allowed
-        self.api_wait = 3  # delay between requests (API recommends no more than once per 3 sec)
+        self.base_url = config.arxiv_base_url
+        self.batch_size = config.max_results_per_query
+        self.api_wait = config.delay_between_requests
 
         # Extended list of categories
         self.categories_query = (

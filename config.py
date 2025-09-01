@@ -8,8 +8,8 @@ class Config:
 
     # API Settings
     arxiv_base_url = "http://export.arxiv.org/api/query"
-    max_results_per_query = 1000
-    delay_between_requests = 3  # seconds to respect arXiv rate limits
+    max_results_per_query = 2000
+    delay_between_requests = 3  # delay between requests (API recommends no more than once per 3 sec)
 
     # AI Models
     vector_model_name = "all-MiniLM-L6-v2"  # Sentence transformer for relevance

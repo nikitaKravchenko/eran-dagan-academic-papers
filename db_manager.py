@@ -9,7 +9,7 @@ class DatabaseManager:
 
     def __init__(self, db_path: str):
         self.db_path = db_path
-        logging.info(f"🗄️  Initializing database: {db_path}")
+        logging.info(f"Initializing database: {db_path}")
         self.init_db()
 
     def init_db(self):
@@ -31,7 +31,7 @@ class DatabaseManager:
         ''')
         conn.commit()
         conn.close()
-        logging.info(f"✅ Database initialized successfully!")
+        logging.info(f"Database initialized successfully!")
         logging.info(f"Database initialized: {self.db_path}")
 
     def is_paper_processed(self, arxiv_id: str) -> bool:

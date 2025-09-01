@@ -9,17 +9,17 @@ class VectorIndex:
     """Improved vector similarity search for GenAI relevance detection"""
 
     def __init__(self, model_name: str):
-        logging.info(f"🧠 Loading vector similarity model: {model_name}")
+        logging.info(f"Loading vector similarity model: {model_name}")
         logging.info("   This may take a moment for first-time setup...")
         self.model = SentenceTransformer(model_name)
         self.index = None
         self.texts = []
-        logging.info(f"✅ Vector model loaded successfully!")
+        logging.info(f"Vector model loaded successfully!")
         logging.info(f"Vector model loaded: {model_name}")
 
     def build_relevance_keywords(self):
         """Create embeddings for GenAI relevance detection """
-        logging.info("🔍 Building improved GenAI relevance detection index...")
+        logging.info("Building improved GenAI relevance detection index...")
 
         # MUCH MORE COMPREHENSIVE set of GenAI descriptions
         gen_ai_descriptions = [
@@ -70,7 +70,7 @@ class VectorIndex:
         self.index = faiss.IndexFlatL2(embeddings.shape[1])
         self.index.add(embeddings.astype('float32'))
         self.texts = gen_ai_descriptions
-        logging.info(f"✅ Vector similarity index built with {len(gen_ai_descriptions)} reference descriptions!")
+        logging.info(f"Vector similarity index built with {len(gen_ai_descriptions)} reference descriptions!")
         logging.info("Improved vector index built for GenAI relevance detection")
 
     def is_relevant_to_genai(self, text: str, threshold: float = 0.3) -> Tuple[bool, float]:
@@ -106,7 +106,7 @@ class VectorIndex:
         query_embedding = self.model.encode([text.lower().strip()])
         distances, indices = self.index.search(query_embedding.astype('float32'), top_k)
 
-        logging.info(f"🔍 Debug similarity analysis for: {text[:50]}...")
+        logging.info(f"Debug similarity analysis for: {text[:50]}...")
         for i, (dist, idx) in enumerate(zip(distances[0], indices[0])):
             similarity = 1 / (1 + dist)
             logging.info(f"   {i + 1}. Score: {similarity:.3f} | {self.texts[idx][:60]}...")
